@@ -14,7 +14,7 @@ The basic thing to get the add-on running would be:
 
 1. Select input and output audio device to use in the "Audio" configuration section of the add-on configuration.
 2. Start the add-on.
-3. Click on the mic icon on the main dashboard or just say the hotword 'Hey Pico' (requires a mic connected to the device)
+3. Click on the mic icon on the top-right corner in Overview or just say the hotword 'Hey Pico' (requires a mic connected to the device)
 
 ## Configuration
 
