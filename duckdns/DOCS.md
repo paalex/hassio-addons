@@ -87,6 +87,7 @@ A list of DuckDNS subdomains registered under your account. An acceptable naming
 A list aliases of domains configured on the `domains` option.
 This is useful in cases where you would like to use your own domain.
 Create a CNAME record to point at the DuckDNS subdomain and set this value accordingly.
+If you're using http as your Let's Encrypt challenge method you would need another CNAME record of the following type `_acme-challenge.ha.my-domain.com -> _acme-challenge.my-domain.duckdns.org`
 
 For example:
 
@@ -99,7 +100,7 @@ aliases:
     alias: my-domain.duckdns.org
 ```
 
-Also, add your custom domain name to the `domains` array to create the certificate for both domains
+Also, add your custom domain name to the `domains` array to create the certificate for both domains.
 
 ### Option: `seconds`
 
